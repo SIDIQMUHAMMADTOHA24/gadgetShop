@@ -4,7 +4,7 @@ import '../list/cart_list.dart';
 import '../list/list.dart';
 
 class CartUtils extends StatefulWidget {
-  CartUtils({
+  const CartUtils({
     super.key,
     required this.index,
   });
@@ -26,7 +26,6 @@ class _CartUtilsState extends State<CartUtils> {
     if (current <= 0) {
       return;
     }
-
     current--;
     setState(() {});
   }
